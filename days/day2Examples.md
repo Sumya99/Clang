@@ -1,117 +1,146 @@
-# Жишээ 1 - Хэвлэлт 
+# Арифметик операторууд 
+
+Арифметик операторууд: 
+</p>+ (Нэмэх үйлдэл)
+</p>- (Хасах үйлдэл)
+</p>* (Үржих үйлдэл) 
+</p>/ (Бүхэл хуваах үйлдэл)
+</p>% (Бутархай хуваах үйлдэл)
+
+### Жишээ1
+```c
+int main() {
+    int a,b;
+    a=18;
+    b=10;
+
+    int nemeh;
+    int hasah;
+    int urjih;
+    int buhel_huvaah;
+    int butar_huvaah;
+
+    nemeh = a+b;
+    hasah = a-b;
+    urjih = a*b;
+    buhel_huvaah = a/b;
+    butar_huvaah = a%b;
+
+    printf("a+b = %d\n",nemeh); //28 garna
+    printf("a-b = %d\n",hasah); //8 garna
+    printf("a*b = %d\n",urjih); //180 garna
+    printf("a/b = %d\n",buhel_huvaah); //1 garna
+    printf("a%b = %d\n",butar_huvaah); //8 garna
+
+    return 0;
+}
+```
+
+### Жишээ2
+```c
+int main() {
+    int a,b;
+    a=30;
+    b=5;
+
+    int nemeh;
+    int hasah;
+    int urjih;
+    int buhel_huvaah;
+    int butar_huvaah;
+
+    nemeh = a+b;
+    hasah = a-b;
+    urjih = a*b;
+    buhel_huvaah = a/b;
+    butar_huvaah = a%b;
+
+    printf("a+b = %d\n",nemeh); //35 garna
+    printf("a-b = %d\n",hasah); //25 garna
+    printf("a*b = %d\n",urjih); //150 garna
+    printf("a/b = %d\n",buhel_huvaah); //6 garna
+    printf("a%b = %d\n",butar_huvaah); //0 garna
+
+    return 0;
+}
+```
+
+#Нэг хувьсагчид оператор хэрэглэх
+
+###Жишээ1
+```c
+int main() {
+    int a;
+    a=30; // a huvisagchiin utga
+
+    a = a+10;
+    a = a-10;
+    a = a*10;
+    a = a/10;
+    a = a%10;
+
+    printf("%d = a+10 \n",a); //40 garna
+    printf("%d = a-10 \n",a); //20 garna
+    printf("%d = a*10 \n",a); //300 garna
+    printf("%d = a/10 \n",a); //3 garna
+    printf("%d = a%10 \n",a); //0 garna
+
+    return 0;
+}
+
+###Жишээ2 - товчлол
+
+a хувьсагчийн утгыг 10 -аар нэмэгдүүлэх бол өмнөх жишээнд бичснээр a=a+10; гэж бичихэд хангалттай. Тэгвэл үүнийг илүү товчоор a+=10; гэж бичиж болдог. Бусад - * / % операторуудын хувьд ч адил товчлол ашиглаж болно.
 
 ```c
 int main() {
-    //Ene bol comment
-    pritnf("One Two Three Four");  
-     return 0; //Ene bol comment
-     //Ene bol comment
+    int a;
+    a=30; // a huvisagchiin utga
+
+    a +=10;
+    printf("a = %d \n",a); 
+    
+    a -=10;
+    printf("a = %d \n",a); 
+    
+    a *=10;
+    printf("a = %d \n",a); 
+    
+    a /=10;
+    printf("a = %d \n",a); 
+    
+    a %=10;
+    printf("a = %d \n",a); 
+    
+    return 0;
 }
+
+
+
+### Жишээ3 - товчлол
+```c
+int main() {
+    int a,b;
+    a=30;
+    b=5;
+
+    a = a+b;
+    printf("a = %d \n",a);
+    a = a-b;
+    printf("a = %d \n",a);
+    a = a*b;
+    printf("a = %d \n",a);
+    a = a/b;
+    printf("a = %d \n",a);
+    a = a%b;
+    printf("a = %d \n",a);
+
+    return 0;
+}
+
+
+
 ```
 **Гаралт :** 
 
 One Two Three Four
-
-
-# Жишээ 2 - Шинэ мөрнөөс хэвлэх
-```c
-int main() {
-    /* Ene bol 
-    olon murtei 
-    comment*/
-    pritnf("One\nTwo\nThree\nFour");  
-    return 0;
-}
-```
-**Гаралт :** <br>
-One <br>
-Two <br>
-Three <br>
-Four<br>
-
-# Жишээ 3 - Хувьсагчид 100 гэсэн анхны утга оноож хэвлэх
-```c
-int main() {
-    int var = 100;
-    pritnf("var huvisagchiin anhnii utga ni = %d",var);
-
-    return 0;
-}
-```
-
-# Жишээ 4 - Гараас утга уншиж хэвлэх
-```c
-int main() {
-    int var;
-    
-    printf("Ta garaas buhel too oruulna uu : ");
-    scanf("%d",&var);
-
-    pritnf("Tanii oruulsan too = %d\n",var);
-
-    return 0;
-}
-```
-
-# Жишээ 5 - 2 тооны ихийг олох
-```c
-int main() {
-    int var1, var2;
-
-    printf("Ta garaas 2 buhel too oruulna uu : ");
-    scanf("%d",&var1);
-    scanf("%d",&var2);
-
-    int ih_utga = max(var1, var2);
-
-    pritnf("Ih utga ni = %d\n",ih_utga);
-
-    return 0;
-}
-```
-# Жишээ 6 - 2 тооны багыг олох
-```c
-int main() {
-    int var1, var2;
-
-    printf("Ta garaas 2 buhel too oruulna uu : ");
-    scanf("%d",&var1);
-    scanf("%d",&var2);
-
-    int baga_utga = min(var1, var2);
-
-    pritnf("Baga utga ni = %d\n",baga_utga);
-
-    return 0;
-}
-```
-
-# Жишээ 7 - 2 тооны нийлбрийг олох
-```c
-int main() {
-    int var1, var2;
-
-    printf("Ta garaas 2 buhel too oruulna uu : ");
-    scanf("%d",&var1);
-    scanf("%d",&var2);
-
-    int niilber = var1 + var2;
-    pritnf("Niilber ni = %d\n",niilber);
-
-    return 0;
-}
-```
-
-# Жишээ 8 - Өгсөн тоог нэгээр нэмж хэвлэх
-```c
-int main() {
-    int var;
-
-    printf("Ta garaas buhel too oruulna uu : ");
-    scanf("%d",&var);
-    int inc = var + 1;
-    pritnf("Niilber ni = %d\n",inc);
-
-    return 0;
-}
-```
