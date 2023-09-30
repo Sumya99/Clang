@@ -18,7 +18,7 @@
 
 <br>9. https://www.spoj.com/RGB7/problems/RGB7309/
 
-<br>10. $x^2 + y^2 = z^2$ ба $ 1\leqslant x\leqslant y \leqslant z \leqslant 100 $ байх бүх x, y, z тоонуудыг хэвлэ. 
+<br>10. $x^2 + y^2 = z^2$ ба $ 1<= x<= y<= z <= 100 $ байх бүх x, y, z тоонуудыг хэвлэ. 
 <br>&ensp; **Гаралт:** 
 <br>&ensp;&ensp;&ensp; 3  4  5
 <br>&ensp;&ensp;&ensp; ...
