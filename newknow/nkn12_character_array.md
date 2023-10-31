@@ -118,20 +118,22 @@ int main(){
 
 <br>6. Эхлээд n тоо өгнө. Гараас өгсөн n ширхэг үгнүүдийг өгсөн дарааллаар хэвлэ.
 <br>жишээ: ...
-<br> Hi
-<br> Hello
-<br> World
+<br/> 3
+<br/> Hi
+<br/> Hello
+<br/> World
 
-<br> Hi
-<br> Hello
-<br> World
+<br/> Hi
+<br/> Hello
+<br/> World
 
 <br>7. Эхлээд n тоо өгнө. Гараас өгсөн n ширхэг үгнүүдийг өгсөн дарааллын эсрэгээр хэвлэ.
 <br>жишээ: ...
-<br> Hi
-<br> Hello
-<br> World
+<br/> 3
+<br/> Hi
+<br/> Hello
+<br/> World
 
-<br> World
-<br> Hello
-<br> Hi
+<br/> World
+<br/> Hello
+<br/> Hi
