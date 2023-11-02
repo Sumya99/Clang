@@ -34,7 +34,7 @@
 
 <br>4. https://accepted.mn/it/problems/?rank=9
 
-<!-- <br>4. https://www.spoj.com/RGB7/problems/RGB7162/
-<br>5. https://www.spoj.com/RGB7/problems/RGB7255/
-<br>6. https://www.spoj.com/RGB7/problems/RGB7260/ -->
+<br>5. https://www.spoj.com/RGB7/problems/RGB7162/
+<br>6. https://www.spoj.com/RGB7/problems/RGB7255/
+<br>7. https://www.spoj.com/RGB7/problems/RGB7260/
 
