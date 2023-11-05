@@ -1,11 +1,16 @@
 # Бэлтгэл бодлогууд 1
 
 <br>1. Trapezoids --> Fighting over candies хүртэл бодно.
-https://kenkoooo.com/atcoder/#/contest/show/3cef52ea-e433-49c0-b319-c523c46886b4
+<br> https://kenkoooo.com/atcoder/#/contest/show/3cef52ea-e433-49c0-b319-c523c46886b4
 
-<br>2. https://www.spoj.com/HOME/problems/A1910A/
-<br>3. https://www.spoj.com/HOME/problems/A201810A/
+<br>2. https://www.spoj.com/RGB7/problems/RGB7162/
+<br>3. https://www.spoj.com/RGB7/problems/RGB7255/
+<br>4. https://www.spoj.com/RGB7/problems/RGB7260/
+<br>5. https://www.spoj.com/HOME/problems/A201810A/  ---  Дунд ангийн олимпиадын бодлого
 
+
+
+<!-- <br>2. https://www.spoj.com/HOME/problems/A1910A/ -->
 <!-- <br>2. https://www.spoj.com/HOME/problems/AO101/
 <br>3. https://www.spoj.com/HOME/problems/AO102/
 
