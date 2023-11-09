@@ -35,7 +35,7 @@
 |s.clear()| string-н тэмдэгтүүдийг устгаж цэвэрлэнэ|
 |s.erase(i,len)| i индексээс хойш len урт хэсэгт байгаа тэмдэгтүүдийг устгана |
 |s.substr(i,len)| i индексээс хойш len урттай дэд string-г буцаана |
-|s.find(c)| string -ээс с тэмдэгтийг хайна. Олдвол индексийг нь буцаана. Олдохгүй бол -1 буцаана. |
+|s.find(c)| string -ээс с тэмдэгтийг хайна. Олдсон эхний индексийг нь буцаана. Олдохгүй бол -1 буцаана. |
 
 
 <br/>
@@ -120,6 +120,7 @@ int main() {
     s1.swap(s2);
     s = s1 + s2;
     cout<<"After swapping: " << s << endl<<endl;
+    cout<<"s.substr(1,3) = "<<s.substr(1,3)<<endl;
 
     return 0;
   }
@@ -142,6 +143,7 @@ Apple, Bond!
 Appended words: Apple, Bond!
 s1 is less than s2.
 After swapping: Bond!Apple,
+s.substr(1,3) = ond
 ```
 
 ## Дасгал ажлууд ##
@@ -158,16 +160,24 @@ After swapping: Bond!Apple,
 <br/> Simplylearn
 <br/> nraelylpmiS
 
-<br>4. Гараас тэмдэгтийн цуваа өгөгдөнө. Түүний тэмдэгтүүдийг урвуугаар хэвлэ.
-<br/> Simplylearn
-<br/> nraelylpmiS
-
-<br>5. Гараас тэмдэгтийн цуваа өгөгдөнө. Палиндром бол Yes үгүй бол No гэж хэвлэ.
+<br>4. Гараас тэмдэгтийн цуваа өгөгдөнө. Палиндром бол Yes үгүй бол No гэж хэвлэ.
 <br/> Simplylearn
 <br/> No
 
 <br/> hadgalagdah
 <br/> Yes
+
+<br>4. Гараас n мөр тэмдэгтийн цуваа өгөгдөнө. Цорын ганц байгаа '1' тэмдэгтийн мөр баганын индексийг хэвлэ. Эхлээд n тоо өгөгдөнө.
+
+<br/> 5
+<br/>
+<br/> 0000000000000000000
+<br/> 2234424242342423424
+<br/> asdfasdfasdfasdfasdfasdf
+<br/> 0000001000000000000
+<br/> qqqq
+
+<br/> 3  6
 
 <br>6. https://atcoder.jp/contests/abc060/tasks/abc060_a 
   *back(), front() ашиглаж бодно*
