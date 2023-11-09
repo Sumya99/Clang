@@ -186,7 +186,7 @@ s.substr(1,3) = ond
 <br>7. https://accepted.mn/it/problems/309/
   *getline(cin,s) ашиглаж бодно*
 
-<br>8. https://www.spoj.com/problems/OLAI1/ (Олимпиадын бодлого)
+<br>8. https://www.spoj.com/NAND1248/problems/OLAI1/ (Олимпиадын бодлого)
 
 <br>9. 
 (23  дахь бодлого буюу `Diagonal string` бодлогоос хойш)<br>https://kenkoooo.com/atcoder/#/contest/show/3cef52ea-e433-49c0-b319-c523c46886b4 
