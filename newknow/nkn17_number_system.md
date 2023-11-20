@@ -10,19 +10,6 @@
 ![Slide 8](pic/number_system/8.png)
 ![Slide 9](pic/number_system/9.png)
 
-``` c++
-int main()
-{
-    vector<vector<int>> V;
-    vector<int> vec = {1,2,3,4};
-    V.push_back(vec);
-    V.push_back({5,5,5});
-    vec = {8,8,9,1,1};
-    V.push_back(vec);
-    return 0;
-}
-```
-
 <br> <br>
 
 ## Бие даах дасгалууд
