@@ -11,6 +11,21 @@
 ![Slide 9](pic/number_system/9.png)
 
 <br> <br>
+```c++
+int main()
+{
+    int A = 0b100;
+    int B = 0x100;
+    int C = 100;
+    //Decimal print
+    cout<<A<<'\n';  // 4
+    cout<<B<<'\n';  // 256
+    cout<<C<<'\n';  // 100
+    //Hexa print
+    cout<<hex<<C;   // 64
+    return 0;
+}
+```
 
 ## Бие даах дасгалууд
 
