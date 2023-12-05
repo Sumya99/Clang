@@ -90,4 +90,24 @@ b.second = "Car";
 <br/>cccccccccccc
 <br/>bdab
 
-<br/>5. Хичээлийн төгсгөлд бичсэн pair өгөгдлийн бүтэц ашиглан дараах бодлогыг бодно уу.https://atcoder.jp/contests/abc304/tasks/abc304_a
+<br/>5. Хичээлийн төгсгөлд бичсэн pair өгөгдлийн бүтэц ашиглан дараах бодлогыг бодно уу.
+
+Танд n хүний нэр болон нас өгөгдөнө. Тэдний нэрсийг насны дарааллаар нь хэвлэнэ үү. 
+
+<br/>7
+<br/>Temuge 38
+<br/>Nandia 1000000000
+<br/>Orkhon 12
+<br/>Erkhes 1000
+<br/>Temuulen 17
+<br/>Anujin 10
+<br/>Tsenguun 7
+
+
+<br/>Tsenguun 
+<br/>Anujin 
+<br/>Orkhon 
+<br/>Temuulen 
+<br/>Temuge
+<br/>Erkhes 
+<br/>Nandia
