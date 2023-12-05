@@ -100,12 +100,12 @@ b.second = "Car";
 <br/>Orkhon 12
 <br/>Erkhes 1000
 <br/>Temuulen 17
-<br/>Anu-ujin 10
+<br/>Anu-Ujin 10
 <br/>Tsenguun 7
 
 
 <br/>Tsenguun 
-<br/>Anujin 
+<br/>Anu-Ujin 
 <br/>Orkhon 
 <br/>Temuulen 
 <br/>Temuge
