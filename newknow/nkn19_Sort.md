@@ -90,4 +90,4 @@ b.second = "Car";
 <br/>cccccccccccc
 <br/>bdab
 
-<br/>5. https://atcoder.jp/contests/abc304/tasks/abc304_a
+<br/>5. Хичээлийн төгсгөлд бичсэн pair өгөгдлийн бүтэц ашиглан дараах бодлогыг бодно уу.https://atcoder.jp/contests/abc304/tasks/abc304_a
