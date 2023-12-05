@@ -35,8 +35,21 @@ bool comp(string a, string b){
 vector<string> s = {"some","aaaaaaaaa","text","for","sorting"};
 sort(s.begin(),s.end(),comp);
 //s = {for,some,text,sorting,aaaaaaaaa};
-```
 
+```
+```c++
+## pair өгөгдлийн бүтэц
+
+//Хоёр өгөгдлийн төрлийн хослолыг pair -т хадгалдаг. Жишээ нь:
+pair<int,int> a;
+pair<int,string> b;
+pair<int,float> c; //гэх мэт
+
+// Тухайн элементүүд рүү хандахдаа .first .second ашиглана
+b.first = 1;
+b.second = "Car";
+
+```
 ## Бие даах дасгалууд
 
 <br/>1. Гараас өгсөн n ширхэг тоог өсөхөөр, буурахаар эрэмблэ.
@@ -76,3 +89,5 @@ sort(s.begin(),s.end(),comp);
 <br/>abababa
 <br/>cccccccccccc
 <br/>bdab
+
+<br/>5. https://atcoder.jp/contests/abc304/tasks/abc304_a
